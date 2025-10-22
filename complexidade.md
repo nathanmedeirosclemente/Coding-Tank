@@ -17,7 +17,7 @@ As tabelas a seguir detalham complexidade temporal, complexidade espacial e esca
 | Expedição (pop)         | O(log n)         | Remover o elemento de maior prioridade         |
 | Atualização             | O(log n)         | Com *index map* é possível ajustar posição     |
 
-| Estrutura       | Complexidade | Observações                               |
+| Estrutura       | Complexidade Espacial | Observações                               |
 |----------------|-------------|-------------------------------------------|
 | Heap           | O(n)        | Armazena todos os pedidos                  |
 | Index Map      | O(n)        | Auxiliar para localizar rapidamente pedidos|
