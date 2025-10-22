@@ -16,7 +16,6 @@ As tabelas a seguir detalham complexidade temporal, complexidade espacial e esca
 | Inserção                | O(log n)         | Inserir um novo pedido no heap                  |
 | Expedição (pop)         | O(log n)         | Remover o elemento de maior prioridade         |
 | Atualização             | O(log n)         | Com *index map* é possível ajustar posição     |
-| Reconstrução completa   | O(n log n)       | Recriar o heap do zero no pior caso            |
 
 | Estrutura       | Complexidade | Observações                               |
 |----------------|-------------|-------------------------------------------|
