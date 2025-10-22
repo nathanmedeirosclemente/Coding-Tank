@@ -49,5 +49,4 @@ O MPS utiliza um **score composto dinâmico** baseado em três fatores:
 - Otimização de Pesos via ML: Treinar modelo supervisionado com histórico de pedidos para ajustar P₁, P₂, P₃ dinamicamente por região/horário.
 - Integração de Constraints: Adicionar camada pós-heap para validar capacidade de dock e agrupar pedidos por rota (bin packing aproximado).
 - Re-priorização Inteligente: Implementar trigger events (novo pedido VIP, mudança de trânsito) para recalcular apenas subconjunto afetado do heap.
-- Dashboard de Acessibilidade: Interface com contraste alto (WCAG AAA), leitores de tela e indicadores visuais para operadores com daltonismo.
 - Aprendizagem Online: Score adaptativo que aprende com feedback de atrasos reais (reinforcement learning leve).
