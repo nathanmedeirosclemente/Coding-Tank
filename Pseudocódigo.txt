@@ -4,11 +4,17 @@ indexMap: mapa {pedidoID → posição no heap}
 
 // Cálculo do Score Composto
 FUNÇÃO calcularScore(pedido):
-    priorityNorm ← pedido.priorityScore / 100
+    
+    //Quanto maior o priorityScore, maior o priorityNormalizado.
+    priorityNormalizado ← pedido.priorityScore / 100
+
+    //Quanto menor o tempo para despacho, maior o peso da urgência.
     urgência ← 100 / (pedido.dispatchWindow + 1)
+
+    //A penalidade será negativa, fazendo 
     penalidade ← MAPA_TAMANHO[pedido.sizeCategory]  // P:0, M:-5, G:-10
     
-    scoreComposto ← 0.3 × priorityNorm + 0.6 × urgência + 0.1 × penalidade
+    scoreComposto ← 0.3 × priorityNormalizado + 0.6 × urgência + 0.1 × penalidade
     RETORNAR score
 
 // Operações Principais
