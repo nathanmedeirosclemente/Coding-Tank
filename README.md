@@ -13,10 +13,9 @@ Cada pedido possui:
 O algoritmo utiliza uma **fila com Max-Heap**, permitindo inserções rápidas, expedições eficientes e atualizações dinâmicas de pedidos.
 
 ### Estrutura do Repositório
-```
-  - pseudocodigo.md // pseudocódigo do algoritmo de priorização de pedidos.
-  - complexidade.md // tabela detalhando a complexidade temporal, espacial e escalabilidade da solução.
-```
+
+- **pseudocodigo.md**: pseudocódigo do algoritmo de priorização de pedidos.
+- **complexidade.md**: tabela detalhando a complexidade temporal, espacial e escalabilidade da solução.
 
 ### Justificativa
 - **Heap com score** garante que todo pedido será processado eventualmente, com **latência estável no P99**, mesmo que o P50 seja mais rápido.  
