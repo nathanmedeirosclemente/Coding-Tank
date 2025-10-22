@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { HeapVisualizer } from './components/HeapVisualizer';
 import { HeapControls } from './components/HeapControls';

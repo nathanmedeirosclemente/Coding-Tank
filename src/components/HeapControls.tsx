@@ -189,7 +189,7 @@ export function HeapControls({
         </div>
 
         {/* Velocidade */}
-        {/* <div className="space-y-3">
+        <div className="space-y-3">
           <Label className="text-slate-300">Velocidade da Animação</Label>
           <Slider
             value={[animationSpeed]}
@@ -205,7 +205,7 @@ export function HeapControls({
               {animationSpeed === 0.5 ? 'Lento' : animationSpeed === 1 ? 'Normal' : 'Rápido'}
             </Badge>
           </div>
-        </div> */}
+        </div>
       </div>
 
       {/* Info sobre a estrutura */}
