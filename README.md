@@ -19,6 +19,7 @@ O algoritmo utiliza uma **fila com Max-Heap**, permitindo inserções rápidas, 
 
 - **pseudocodigo.md**: pseudocódigo do algoritmo de priorização de pedidos.
 - **complexidade.md**: tabela detalhando a complexidade temporal, espacial e escalabilidade da solução.
+- **`heapmax-animation/`**: Pasta que contém todo o código-fonte (Vite/React) do projeto de animação do heapmax com score dinâmico.
 
 ### Justificativa
 - **Heap com score** garante que todo pedido será processado eventualmente, com **latência estável no P99**, mesmo que o P50 seja mais rápido.  
