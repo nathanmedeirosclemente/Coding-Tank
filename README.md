@@ -62,7 +62,7 @@ O MPS utiliza um **score composto dinâmico** baseado em três fatores:
 
 Siga os passos abaixo para instalar as dependências e iniciar o ambiente de desenvolvimento.
 
-### 1. Acessar o Diretório do Projeto
+1. Acessar o Diretório do Projeto
 
 Você deve navegar para a pasta onde estão os arquivos (subdiretório **`heapmax-animation/`**)
 
