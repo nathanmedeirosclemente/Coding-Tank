@@ -12,6 +12,9 @@ Cada pedido possui:
 ### Solução - Heap Multi-chave com Score Composto
 O algoritmo utiliza uma **fila com Max-Heap**, permitindo inserções rápidas, expedições eficientes e atualizações dinâmicas de pedidos.
 
+### Link Slide
+- [Slide da Apresentação](https://www.canva.com/design/DAG2hKkwdes/WYA6WvEpd3yX-v2TeLRarw/view?utm_content=DAG2hKkwdes&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8a856a9e5b)
+
 ### Estrutura do Repositório
 
 - **pseudocodigo.md**: pseudocódigo do algoritmo de priorização de pedidos.
