@@ -53,3 +53,37 @@ O MPS utiliza um **score composto dinâmico** baseado em três fatores:
 - Integração de Constraints: Adicionar camada pós-heap para validar capacidade de dock e agrupar pedidos por rota (bin packing aproximado).
 - Re-priorização Inteligente: Implementar trigger events (novo pedido VIP, mudança de trânsito) para recalcular apenas subconjunto afetado do heap.
 - Aprendizagem Online: Score adaptativo que aprende com feedback de atrasos reais (reinforcement learning leve).
+
+## EXTRA
+###  Como Rodar o Projeto HEAPMAX ANIMATION Localmente
+<img width="1223" height="824" alt="Screenshot 2025-10-22 at 22 03 05" src="https://github.com/user-attachments/assets/728ff5f3-5454-47e8-a1a9-ca2d3343ea0a" />
+
+**Observação: O código-fonte principal e as configurações do projeto (Vite/React) estão localizados no subdiretório **`heapmax-animation/`**.**
+
+Siga os passos abaixo para instalar as dependências e iniciar o ambiente de desenvolvimento.
+
+### 1. Acessar o Diretório do Projeto
+
+Você deve navegar para a pasta onde estão os arquivos (subdiretório **`heapmax-animation/`**)
+
+```bash
+cd heapmax-animation
+```
+2. Instalar as Dependências
+
+Usando seu gerenciador de pacotes (neste exemplo, usamos npm), instale as bibliotecas necessárias:
+
+```bash
+npm install
+# Se você usa yarn, substitua por:
+# yarn install
+```
+
+3. Iniciar o Servidor de Desenvolvimento
+
+Execute o script de desenvolvimento. O projeto estará acessível no seu navegador, geralmente em http://localhost:3000 ou na porta que o terminal indicar.
+```bash
+npm run dev
+# OU
+# yarn dev
+```
